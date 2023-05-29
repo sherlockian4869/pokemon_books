@@ -3,7 +3,7 @@ import { ChartConfiguration, ChartData, ChartType, LabelItem } from 'chart.js';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { POKEMONS } from '../model/pokemons';
+import { POKEMONS } from '../../model/pokemons';
 
 @Component({
   selector: 'app-pokemon-detail',
